@@ -6,3 +6,15 @@ Then we printed the unique symptoms from symptom-severity file and applied. Here
 
 We have y_vec that has the list of diseases, and x_vec has the list of symptoms. For a corresponding value of x_vec there is a disease. for instance:
 ss
+it is interpreted as:
+ss2
+
+we splitted the data into testing and training(85%)
+We used inbuit decision tree function and saved the trained model in a pickel file. We got an accuracy of 100%, and the following confusion matrix.
+
+ss
+ss
+
+Here even if the order of symptoms are changed i.e. order is shufffled, same disease is predicted. for e.g.
+ss
+ss
