@@ -1,6 +1,6 @@
 # Medical Diagonis webApp
 ## Our code
-we took the dataset from kaggel, Disease Symptom Dataset, then we filled nan in the columns were no symptom was present, then our dataset looks like this:
+we took the dataset from Kaggle, Disease Symptom Dataset, then we filled nan in the columns were no symptom was present, then our dataset looks like this:
 ![](https://github.com/Ananyaiitbhilai/Assignment1c/blob/main/images/Screenshot%202022-02-21%20at%2012.39.05%20AM.png)<br>
 
 We printed the unique symptoms from symptom-severity csv file and applied label binarizer to each symptom. Here we used label binarzer, to convert each symptom into a binary matrix, e.g. itching refers to [1,0,0,.....,0] , skin_rashes refers to [0,1,0,0,.....,0] vector. We have 132 symptoms in the dataset. This implies we have length of array as 132.
